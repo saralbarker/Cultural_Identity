@@ -1,0 +1,236 @@
+@media screen and (max-width: 480px) {
+  .mini {
+    display: none;
+  }
+  #description {
+    display: none;
+  }
+}
+
+body {
+   background-color: #F4FBFC; 
+}
+
+@font-face {
+    font-family: moons;
+    src: url(Fonts/moons.otf);
+}
+
+@font-face {
+    font-family: maldive;
+    src: url(Fonts/maldive.otf);
+}
+
+@font-face {
+    font-family: bodytext;
+    src: url(Fonts/bodytext.ttf);
+}
+
+@font-face {
+    font-family: questiontext;
+    src: url(Fonts/questiontext.ttf);
+}
+
+@font-face {
+    font-family: subjecttext;
+    src: url(Fonts/subjecttext.ttf);
+}
+
+.mini {
+    margin-left: 1017px;
+    margin-right: 50px;
+    margin-bottom: -91px;
+    text-align: justify;
+    font-family: bodytext;
+    font-size: 15.2px;
+    width: 338px;
+}
+
+#personal {
+    margin-left: 850px;
+    margin-top: -424px;
+    text-align: justify;
+    font-family: bodytext;
+    font-size: 15.2px;
+    width: 370px;
+}
+
+#prob {
+  margin-bottom: -2px;
+}
+
+#prob2 {
+  max-height: 400px;
+}
+
+.qna-fixed {
+    margin-left: 1017px;
+    margin-right: 50px;
+    margin-top: -988px;
+    text-align: justify;
+    font-family: bodytext;
+    font-size: 15.2px;
+    width: 338px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.test {
+    height: 400px;
+    overflow-y: scroll;
+    padding-right: 18px;
+}
+
+.instruct {
+  font-family: questiontext;
+}
+
+#title {
+  font-family: moons;
+  text-align: center;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 90%;
+  color: black;
+  letter-spacing: 15px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+#sub-title {
+  font-family: maldive;
+  text-align: center;
+  font-size: 70px;
+  line-height: 0%;
+  margin-bottom: 50px;
+}
+
+#subjects {
+  font-family: subjecttext;
+  text-align: center;
+  font-size: 17px;
+  margin-top: -12px;
+  margin-bottom: 50px;
+}
+
+#question {
+  margin-top: 25px;
+  font-family: questiontext;
+  text-align: center;
+  font-size: 25px;
+}
+
+#description {
+  width: 319px;
+  margin-left: -440px;
+  margin-top: -15px;
+  text-align: center;
+  font-family: bodytext;
+  font-size: 16px;
+}
+
+.names {
+  font-family: questiontext;
+  margin-bottom: -20px;
+  text-align: left;
+  font-size: 30px;
+  color: blue;
+  margin-left: 6px;
+}
+
+.musicinfo {
+  font-family: bodytext;
+  font-size: 15.2px;
+  width: 320px;
+}
+
+.firstrow {
+  width: 990px;
+  display: block;
+  height: 500px;
+  margin-bottom: -175px;
+  padding-bottom: 50px;
+  float: none;
+}
+
+.secondrow {
+  width: 990px;
+  display: block;
+  height: 500px;
+  margin-bottom: -175px;
+  padding-bottom: 50px;
+  float: none;
+}
+
+.thirdrow {
+  width: 990px;
+  display: block;
+  height: 500px;
+  margin-bottom: -175px;
+  padding-bottom: 50px;
+  float: none;
+}
+
+.musicnames {
+  font-family: questiontext;
+  font-size: 16px;
+}
+
+.music {
+  position: relative;
+  padding-bottom: 5px;
+}
+
+.conclusions {
+  margin-top: 3px;
+  margin-bottom: -12px;
+  font-family: questiontext;
+  width: 1000px;
+  text-align: left;
+  font-size: 25px;
+  /*margin-top: 300px;*/
+ /* margin-left: 1px;*/
+  /*padding-top: 30px;*/
+}
+
+#last {
+  padding-top: 31px;
+  padding-bottom: 2px;
+  margin-top: 240px;
+  margin-left: 23px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: white;
+  height: 600px;
+  overflow-x: hidden;
+  width: 723px;
+  overflow-y: scroll;
+}
+
+#words {
+  text-align: justify;
+  font-family: bodytext;
+  font-size: 15.2px;
+  line-height: 170%;
+  padding-bottom: 10px;
+}
+
+#sources {
+    color: white;
+    background-color: black;
+    float: left;
+    margin-left: 850px;
+    margin-top: -632px;
+    margin-bottom: 11px;
+    width: 350px;
+    text-align: left;
+    font-family: bodytext;
+    font-size: 15.2px;
+    line-height: 110%;
+    height: 154px;
+    overflow-y: scroll;
+    padding-top: 34px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
